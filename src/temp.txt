@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #0d2538; /* Dark blue */
+  --secondary-color: #1b3a57; /* Lighter dark blue */
+  --accent-color: #00d8ff; /* Neon cyan */
+  --text-color: #e0e0e0;
+  --background-color: #0a192f;
+  --card-bg: #112240;
+  --border-color: #233554;
+  --hover-color: #00bcd4;
+}
+
+[data-theme="light"] {
+  --primary-color: #ffffff; /* Light mode background */
+  --secondary-color: #f0f0f0; /* Light gray */
+  --accent-color: #007bff; /* Blue */
+  --text-color: #1b1b1b;
+  --background-color: #f8f9fa;
+  --card-bg: #ffffff;
+  --border-color: #d1d1d1;
+  --hover-color: #0056b3;
+}
